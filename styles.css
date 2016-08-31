@@ -1,5 +1,4 @@
 body{
-  font-family: 'Open Sans', sans-serif;
   background-color: white;
 }
 
@@ -13,15 +12,43 @@ main{
 
 button{
   color: white;
+  font-family: 'Open Sans', sans-serif;
   margin: 20px;
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 30px;
   width: 200px;
   height: 100px;
   background-color: #EFB6D5;
-  border-left: 15px #CC7FB5 solid;
-  border-right: 15px #CC7FB5 solid;
-  border-top: 15px #B2479A solid;
-  border-bottom: 15px #B2479A solid;
+  border-left: 10px #CC7FB5 solid;
+  border-right: 10px #CC7FB5 solid;
+  border-top: 10px #B2479A solid;
+  border-bottom: 10px #B2479A solid;
+}
 
+button:hover{
+  background-color: #B2479A;
+  border-left: 10px #EFB6D5 solid;
+  border-right: 10px #EFB6D5 solid;
+  border-top: 10px #CC7FB5 solid;
+  border-bottom: 10px #CC7FB5 solid;
+}
+
+@media screen and (max-width: 550px) {
+
+  main{
+    display: block;
+  }
+  button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #random-button{
+    margin-top: 200px;
+  }
+
+  #reset-button{
+    margin-top: 20px;
+    height: 75px;
+  }
 }
