@@ -12,7 +12,7 @@ main{
 
 button{
   color: white;
-  background-color: #EFB6D5;
+  background-color: #E5B6D5;
   border-left: 10px #CC7FB5 solid;
   border-right: 10px #CC7FB5 solid;
   border-top: 10px #B2479A solid;
@@ -27,8 +27,8 @@ button{
 
 button:hover{
   background-color: #B2479A;
-  border-left: 10px #EFB6D5 solid;
-  border-right: 10px #EFB6D5 solid;
+  border-left: 10px #E5B6D5 solid;
+  border-right: 10px #E5B6D5 solid;
   border-top: 10px #CC7FB5 solid;
   border-bottom: 10px #CC7FB5 solid;
 }
