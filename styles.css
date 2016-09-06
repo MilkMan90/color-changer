@@ -4,24 +4,25 @@ body{
 
 main{
   display: flex;
-  width: 100%;
-  height: 100vh;
   align-items: center;
   justify-content: center;
+  height: 100vh;
+  width: 100%;
 }
 
 button{
   color: white;
-  font-family: 'Open Sans', sans-serif;
-  margin: 20px;
-  font-size: 30px;
-  width: 200px;
-  height: 100px;
   background-color: #EFB6D5;
   border-left: 10px #CC7FB5 solid;
   border-right: 10px #CC7FB5 solid;
   border-top: 10px #B2479A solid;
   border-bottom: 10px #B2479A solid;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  letter-spacing: 3px;
+  margin: 30px;
+  height: 100px;
+  width: 250px;
 }
 
 button:hover{
@@ -32,8 +33,11 @@ button:hover{
   border-bottom: 10px #CC7FB5 solid;
 }
 
-@media screen and (max-width: 550px) {
+button:focus{
+  outline: none;
+}
 
+@media screen and (max-width: 550px) {
   main{
     display: block;
   }
@@ -42,13 +46,11 @@ button:hover{
     margin-left: auto;
     margin-right: auto;
   }
-
   #random-button{
-    margin-top: 200px;
+    margin-top: 175px;
   }
-
   #reset-button{
-    margin-top: 20px;
-    height: 75px;
+    margin-top: 40px;
+    height: 65px;
   }
 }
